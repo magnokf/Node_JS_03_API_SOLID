@@ -1,0 +1,34 @@
+{
+  "name": "03_api_solid",
+  "version": "1.0.0",
+  "description": "GynPass style app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "tsx --watch  src/server.ts",
+    "start": "node build/server.js",
+    "build": "tsup src --out-dir build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magnokf/Node_JS_03_API_SOLID.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/magnokf/Node_JS_03_API_SOLID/issues"
+  },
+  "homepage": "https://github.com/magnokf/Node_JS_03_API_SOLID#readme",
+  "devDependencies": {
+    "@types/node": "18.15.7",
+    "tsup": "6.7.0",
+    "tsx": "3.12.6",
+    "typescript": "5.0.2"
+  },
+  "dependencies": {
+    "dotenv": "16.0.3",
+    "fastify": "4.15.0",
+    "zod": "3.21.4"
+  }
+}
