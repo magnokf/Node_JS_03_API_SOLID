@@ -1,3 +1,33 @@
+
+# Setup
+
+### Postgres - Docker
+- [ ] Install Docker
+- [ ] Install Docker Compose
+- [ ] Create a `.env` file based on `.env.example`
+- [ ] Run the following command to start the database:
+```bash
+docker compose up -d
+```
+obs number 1: If you want to stop the database, run the following command:
+```bash
+docker compose stop
+```
+obs number 2: If you want to destroy the database, run the following command:
+```bash
+docker compose down
+```
+
+### Prisma ORM
+- [ ] Create Migrations
+```bash
+npx prisma migrate dev
+```
+
+
+
+
+
 # App
 
 GynPass style app
