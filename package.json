@@ -4,7 +4,8 @@
   "description": "GynPass style app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "vitest run",
+    "test:watch": "vitest",
     "start:dev": "tsx --watch  src/server.ts",
     "start": "node build/server.js",
     "build": "tsup src --out-dir build"
@@ -28,7 +29,10 @@
     "prisma": "4.11.0",
     "tsup": "6.7.0",
     "tsx": "3.12.6",
-    "typescript": "5.0.2"
+    "typescript": "5.0.2",
+    "vite-tsconfig-paths": "4.0.7",
+    "vitest": "0.29.8",
+    "vitest-tsconfig-paths": "3.4.1"
   },
   "dependencies": {
     "@prisma/client": "4.11.0",
