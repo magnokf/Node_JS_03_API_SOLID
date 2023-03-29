@@ -11,11 +11,11 @@ describe('Register Use Case', () => {
 
     const { user } = await registerUseCase.execute({
       name: 'John Doe',
-      email: 'example2email.com',
+      email: 'exampl@email.com',
       password: '123488',
     })
 
-    expect(user.id).toEqual('id')
+    expect(user.id).toEqual('user-1')
   })
 
   it('should register a new user', async () => {
