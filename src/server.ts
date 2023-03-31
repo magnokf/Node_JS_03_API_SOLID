@@ -6,4 +6,4 @@ app
     port: env.PORT,
     host: '0.0.0.0',
   })
-  .then(() => console.log('Server is running okay'))
+  .then(() => console.log('Server is running flamengo'))
